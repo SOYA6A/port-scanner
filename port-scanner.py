@@ -1,5 +1,5 @@
 import socket # Importer la bibliothèque 'socket' pour gérer les connexions réseau
-from concurrent.futures import  # Importer pour exécuter plusieurs tâches en même temps
+from concurrent.futures import ThreadPoolExecutor # Importer pour exécuter plusieurs tâches en même temps
 
 def scan_port(ip, port):
     """
