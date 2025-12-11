@@ -33,6 +33,8 @@ Entrez le port de fin : 100
 Port 33 ouvert
 Port 77 ouvert
 ```
+voici un autre exemple en image:
+<img width="996" height="411" alt="Screenshot 2025-12-11 at 21 09 44" src="https://github.com/user-attachments/assets/33699315-8dfe-4831-8880-ee2f4f486249" />
 
 ## Ce que j'ai appris
 
