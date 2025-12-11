@@ -13,6 +13,7 @@ Le programme demande :
 - Un port de début
 - Un port de fin
 
+
 il vérifie tous les ports entre ces deux numéros pour voir s'ils sont ouverts ou fermés.
 
 ## Installation
@@ -21,3 +22,21 @@ git clone https://github.com/SOYA6A/port-scanner.git
 cd port-scanner
 python port-scanner.py
 ```
+Pas besoin d'installer de librairies supplémentaires, j'utilise juste les modules Python de base.
+
+## Exemple
+```
+Entrez l'adresse IP à scanner : scanme.org
+Entrez le port de début : 1
+Entrez le port de fin : 100
+
+Port 33 ouvert
+Port 77 ouvert
+```
+
+## Ce que j'ai appris
+
+- Comment utiliser les sockets en Python
+- Les bases du protocole TCP/IP
+- Le multi-threading pour accélérer le scan
+- Comment structurer un programme Python
